@@ -1,0 +1,10 @@
+print('Olá! Bem-vindo ao mercado Avaliação de IC! Para proseguirmos suas compras, preciso que nos informe alguns dados.')
+nome = input ('Por favor, escreva o seu nome: ')
+cpf = input ('Digite seu CPF: ')
+cidade = input ('Digite seu cidade: ')
+telefone = input ('Digite seu telefone: ')
+print ('É um prazer te conhecer, {}! Confira logo abaixo nossa lista de compras:'.format(nome))
+produtos = []
+while True:
+    produtos.append(str(float(input("Feijão R$ 03,00 , Arroz R$ 03,00 , Macarrão R$ 03,00 , Queijo R$ 03,00 , Refrigerante R$ 03,00 " ))))
+    
